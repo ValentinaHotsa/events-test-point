@@ -1,0 +1,116 @@
+.containerCard {
+  width: 750px;
+  height: 260px;
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #4169e1d0;
+  color: white;
+}
+
+.nameEvent {
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+.dateEvent {
+  padding-bottom: 10px;
+}
+.descriptionEvent {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.organizerEvent {
+  padding-bottom: 25px;
+}
+.organizerEvent span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.linkEvent {
+  background-color: #c2e1ec;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 160px;
+  height: 33px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+  font-weight: 600;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.linkEvent:hover,
+.linkEvent:focus {
+  background-color: #9ec5f5;
+  border: solid 2px #1c1d1b;
+}
+.linkWraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partContainer {
+  width: 1230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+.partTitle {
+  text-align: center;
+  font-size: 35px;
+}
+.partList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 50px;
+}
+
+.partItem {
+  width: 350px;
+  height: 120px;
+  background-color: #c2e1ec;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.partItem h5 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.partItem h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.linkBack {
+  margin: 0 auto;
+  display: block;
+  background-color: #c2e1ec;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 300px;
+  height: 55px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.linkBack:hover,
+.linkBack:focus {
+  background-color: #9ec5f5;
+}
